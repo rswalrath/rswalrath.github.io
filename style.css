@@ -1,0 +1,54 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://i.imgur.com/b0ukTfl.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:200px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 60px;  
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.about-me {
+  background-color: #f7f7f7;
+}
+
+.about-me h3 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-me a {
+  color: #00b0ff;
+}
+
+.about-me p {
+  font-family: 'Cabin', sans-serif;
+}
