@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600|PT+Sans:400,700|Lobster' rel='stylesheet' type='text/css'>
-</head>
+  <head>
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<body>
-  <!-- NAVBAR --> 
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600|PT+Sans:400,700|Lobster' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+  	<!-- NAVBAR --> 
   <nav class="navbar navbar-default navbar-fixed-top" id="site-navbar">
     <div class="container">
       <div class="navbar-header">
@@ -22,22 +26,33 @@
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Writing</a></li>
-          <li><a href="#">Design</a></li>
+          <li class="dropdown">
+          	<a href="#" data-toggle="dropdown" class="dropdown-toggle">Writing<b class="caret"></b></a>
+          	<ul class="dropdown-menu">
+         	  <li><a href="#">Top Clips</a></li>
+          	  <li><a href="#">The Huntington News</a></li>
+          	  <li><a href="#">Woodlands Online</a></li>
+            </ul>
+          </li>
+          </li>
+          <li class="dropdown">
+          	<a href="#" data-toggle="dropdown" class="dropdown-toggle">Design<b class="caret"></b></a>
+          	<ul class="dropdown-menu">
+          	  <li><a href="#">Spectrum</a></li>
+          	</ul>
+          </li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <p>Click <a href="#">here</a> for a PDF version.</p>
-      </div>
-    </div>
-  </div>
-</body>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  </body>
 
 </html>
