@@ -14,15 +14,13 @@
   text-transform: uppercase;
 }
 
-/*.nav li {
-  display: inline;
-}*/
-
 .jumbotron {
   background-image:url('http://i.imgur.com/wjFNmGF.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f7f7f7;
+  margin-bottom: 0px;
 }
 
 .jumbotron .container {
@@ -44,19 +42,43 @@
 }
 
 .about-me {
-  background-color: #f7f7f7;
+  background-image: url("../images/struckaxiom.png");
+  background-repeat: repeat 0 0;
+  padding: 30px;
 }
 
 .about-me h3 {
   font-family: 'Cabin', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .about-me a {
-  color: #00b0ff;
+  color: #D14867;
 }
 
 .about-me p {
   font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+}
+
+.contact {
+  background-color: #AAC6D7;
+  padding: 30px;
+}
+
+.contact h3 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact a {
+  color: #D14867;
+}
+
+.contact p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+}
 }
