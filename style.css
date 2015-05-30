@@ -31,7 +31,7 @@
 .jumbotron h1 {
   color: #fff;
   font-size: 60px;  
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster', sans-serif;
   font-weight: bold;
 }
 
@@ -111,6 +111,34 @@
 .huntnews {
   font-family: 'Cabin', sans-serif;
   padding-top: 65px;
+}
+
+.spectrum-header-background {
+  background-color:#AAC6D7;
+}
+
+.spectrum-header {
+  font-family: 'Cabin', sans-serif;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.spectrum-header a {
+  color: #D14867;
+}
+
+.spectrum {
+  font-family: 'Cabin', sans-serif;
+  padding-top: 30px;
+}
+
+.spectrum a {
+  color: #D14867;
+}
+
+.spectrum h4 {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 /*ul.img-list {
