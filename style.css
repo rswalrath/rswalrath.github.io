@@ -172,3 +172,53 @@
 .calendar a {
   color: #fff;
 }
+
+.contactform {
+  padding-top: 65px;
+  width: 600px;
+  background-color: #AAC6D7;
+  border-radius: 6px;
+  margin: 60px auto 20px auto;
+  display: block;
+  padding: 10px;
+  position: relative;
+  font-family: 'Cabin', sans-serif;
+}
+
+input {
+  width: 270px;
+  height: 50px;
+  padding: 0px 0px 0px 20px;
+  border-radius: 3px;
+  background-color: white;
+  border: none;
+  color: #333;
+  margin: 10px;
+  float: left;
+}
+
+textarea {
+  width: 560px;
+  height: 80px;
+  padding: 20px;
+  color: #333;
+  border-radius: 3px;
+  background-color: white;
+  margin: 10px;
+  border: none;
+  resize: vertical;
+}
+
+.submitform {
+  display: block;
+  padding: 10px 15px;
+  background-color: #D14867;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: -65px;
+  left: 210px;
+}
