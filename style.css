@@ -164,12 +164,13 @@ textarea {
 }
 
 .submitform {
-  display: block;
+  display: inline-block;
   padding: 10px 15px;
-  background: white;
+  background: #D14867;
   border: 3px solid #D14867;
   color: #D14867;
   font-weight: bold;
+  color: white;
   border-radius: 25px;
   position: absolute;
   bottom: -65px;
