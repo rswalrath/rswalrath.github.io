@@ -97,6 +97,7 @@
   font-family: 'Cabin', sans-serif;
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 .contact a {
@@ -108,17 +109,71 @@
   font-size: 16px;
 }
 
+.icons {
+  text-align: center;
+}
+
 .twittericon {
-  margin-left: 110px;
   padding: 30px;
+  display: inline-block;
 }
 
 .linkedinicon {
   padding: 30px;
+  display: inline-block;
 }
 
 .githubicon {
   padding: 30px;
+  display: inline-block;
+}
+
+.contactform {
+  width: 600px;
+  background-color: #D14867;
+  border-radius: 6px;
+  margin: 20px auto 80px auto;
+  display: block;
+  padding: 10px;
+  position: relative;
+  font-family: 'Cabin', sans-serif;
+}
+
+input {
+  width: 270px;
+  height: 50px;
+  padding: 0px 0px 0px 20px;
+  border-radius: 3px;
+  background-color: white;
+  border: none;
+  color: #333;
+  margin: 10px;
+  float: left;
+}
+
+textarea {
+  width: 560px;
+  height: 80px;
+  padding: 20px;
+  color: #333;
+  border-radius: 3px;
+  background-color: white;
+  margin: 10px;
+  border: none;
+  resize: vertical;
+}
+
+.submitform {
+  display: block;
+  padding: 10px 15px;
+  background: white;
+  border: 3px solid #D14867;
+  color: #D14867;
+  font-weight: bold;
+  border-radius: 25px;
+  position: absolute;
+  bottom: -65px;
+  left: 235px;
 }
 
 .huntnews {
@@ -184,53 +239,4 @@
 
 .calendar a {
   color: #fff;
-}
-
-.contactform {
-  padding-top: 65px;
-  width: 600px;
-  background-color: #AAC6D7;
-  border-radius: 6px;
-  margin: 100px auto 20px auto;
-  display: block;
-  padding: 10px;
-  position: relative;
-  font-family: 'Cabin', sans-serif;
-}
-
-input {
-  width: 270px;
-  height: 50px;
-  padding: 0px 0px 0px 20px;
-  border-radius: 3px;
-  background-color: white;
-  border: none;
-  color: #333;
-  margin: 10px;
-  float: left;
-}
-
-textarea {
-  width: 560px;
-  height: 80px;
-  padding: 20px;
-  color: #333;
-  border-radius: 3px;
-  background-color: white;
-  margin: 10px;
-  border: none;
-  resize: vertical;
-}
-
-.submitform {
-  display: block;
-  padding: 10px 15px;
-  background: transparent;
-  border: 3px solid #D14867;
-  color: #D14867;
-  font-weight: bold;
-  border-radius: 25px;
-  position: absolute;
-  bottom: -65px;
-  left: 235px;
 }
