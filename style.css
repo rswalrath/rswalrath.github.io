@@ -177,6 +177,10 @@ textarea {
   left: 235px;
 }
 
+#construction {
+  text-align: center;
+}
+
 .huntnews {
   font-family: 'Cabin', sans-serif;
   padding-top: 65px;
